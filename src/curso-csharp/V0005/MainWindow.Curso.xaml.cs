@@ -66,20 +66,8 @@ namespace V0005
             //       II. BarraMensagem contém a string "Você perdeu."
             //       III. escapa do bloco.
             //
-            switch (botaoApertado.Name)
-            {
-                case "BotaoVermelho0" when Sequencia[PosicaoNoVetor] == 0:
-                case "BotaoVerde1" when Sequencia[PosicaoNoVetor] == 1:
-                case "BotaoAzul2" when Sequencia[PosicaoNoVetor] == 2:
-                case "BotaoAmarelo3" when Sequencia[PosicaoNoVetor] == 3:
-                    botaoApertado.IsEnabled = true;
-                    await AcertouBotaoAsync();
-                    break;
-                default:
-                    BotaoVermelho0.IsEnabled = BotaoVerde1.IsEnabled = BotaoAzul2.IsEnabled = BotaoAmarelo3.IsEnabled = false;
-                    BarraMensagem.Text = "Você perdeu.";
-                    break;
-            }
+            // Retire a linha abaixo e implemente o corpo deste método.
+            throw new NotImplementedException();
         }
 
         async Task AcertouBotaoAsync()
