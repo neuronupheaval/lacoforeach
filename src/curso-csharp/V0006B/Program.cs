@@ -18,7 +18,7 @@ Console.WriteLine("Cliente conectado, seu endereço de IP é {0}!", ((IPEndPoint
 string? mensagem;
 // 1. Faça:
 //    a. Ler uma linha do sr e guardar em *mensagem*
-//    b. Ecoar em sw os seguintes dizeres: "Você digitou: " e concatenar *mensagem*
+//    b. Ecoar em sw os seguintes dizeres: "Você digitou: " e adicionalmente *mensagem*
 //    c. Ecoar uma quebra de linha em sw
 //    d. Purgar sw
 //    Enquanto *mensagem* não for null e *mensagem* não for "Chega!"
