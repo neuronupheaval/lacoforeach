@@ -29,8 +29,8 @@ do
 // if (...)
 // {
     CultureInfo culture = CultureInfo.GetCultureInfo("pt-BR");
-    string fraseMediaArit = string.Format(culture, "A média aritmética é {0:#,##0.0000}", mediaArit / tamanhoAmostra);
-    string fraseMediaGeom = string.Format(culture, "A média geométrica é {0:#,##0.0000}", Math.Pow(mediaGeom, 1.0 / tamanhoAmostra));
+    string fraseMediaArit = string.Format(culture, " Média aritmética: {0:#,##0.0000} ", mediaArit / tamanhoAmostra);
+    string fraseMediaGeom = string.Format(culture, " Média geométrica: {0:#,##0.0000} ", Math.Pow(mediaGeom, 1.0 / tamanhoAmostra));
     string traco = new string('=', Math.Max(fraseMediaArit.Length, fraseMediaGeom.Length));
 
     Console.ForegroundColor = ConsoleColor.Green;
