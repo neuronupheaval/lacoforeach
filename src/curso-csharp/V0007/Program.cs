@@ -1,5 +1,8 @@
 ﻿using System.Globalization;
 
+Console.WriteLine("=== Programa calculador de médias aritmética e geométrica ===");
+Console.WriteLine();
+
 string? entrada = "";
 int tamanhoAmostra = 0;
 double mediaArit = 0.0, mediaGeom = 1.0;
